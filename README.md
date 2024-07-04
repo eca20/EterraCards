@@ -1,6 +1,5 @@
-# 🎴 Triple Triad 🎴
-Triple Triad minigame from Final Fantasy VIII made in Unity 2022.1. 
-By default all rules are enabled.
+# 🎴 EterraCards 🎴
+EterraCards, the companion app for Eterra: Paradigm Shift and Eterra: CryptoRoyale
 
 ## User interface 👀
 ### Menu
