@@ -8,11 +8,6 @@ public class SettingsData : IData<SettingsData>
     public int LanguageIndex { get; set; }
     public bool FullScreen { get; set; }
     public bool Vsync { get; set; }
-    public bool SameRule { get; set; }
-    public bool SameWallRule { get; set; }
-    public bool SuddenDeathRule { get; set; }
-    public bool RandomRule { get; set; }
-    public bool PlusRule { get; set; }
     public bool ElementalRule { get; set; }
 
     /// <summary>
@@ -27,11 +22,6 @@ public class SettingsData : IData<SettingsData>
         LanguageIndex = 0;
         FullScreen = true;
         Vsync = true;
-        SameRule = true;
-        SameWallRule = true;
-        SuddenDeathRule = true;
-        RandomRule = true;
-        PlusRule = true;
         ElementalRule = true;
     }
 
