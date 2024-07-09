@@ -45,11 +45,6 @@ public class SettingsData : IData<SettingsData>
                         int LanguageIndex,
                         bool FullScreen,
                         bool Vsync,
-                        bool SameRule,
-                        bool SameWallRule,
-                        bool SuddenDeathRule,
-                        bool RandomRule,
-                        bool PlusRule,
                         bool ElementalRule)
     {
         this.MusicVolume = MusicVolume;
@@ -59,11 +54,6 @@ public class SettingsData : IData<SettingsData>
         this.LanguageIndex = LanguageIndex;
         this.FullScreen = FullScreen;
         this.Vsync = Vsync;
-        this.SameRule = SameRule;
-        this.SameWallRule = SameWallRule;
-        this.SuddenDeathRule = SuddenDeathRule;
-        this.RandomRule = RandomRule;
-        this.PlusRule = PlusRule;
         this.ElementalRule = ElementalRule;
     }
 
@@ -80,11 +70,6 @@ public class SettingsData : IData<SettingsData>
         LanguageIndex = SettingsController.Instance.LanguageSetting.CurrentIndex;
         FullScreen = SettingsController.Instance.FullScreen.isOn;
         Vsync = SettingsController.Instance.Vsync.isOn;
-        SameRule = SettingsController.Instance.SameRule.isOn;
-        SameWallRule = SettingsController.Instance.SameWallRule.isOn;
-        SuddenDeathRule = SettingsController.Instance.SuddenDeathRule.isOn;
-        RandomRule = SettingsController.Instance.RandomRule.isOn;
-        PlusRule = SettingsController.Instance.PlusRule.isOn;
         ElementalRule = SettingsController.Instance.ElementalRule.isOn;
         return new SettingsData(MusicVolume,
                                 SFXVolume,
@@ -93,11 +78,6 @@ public class SettingsData : IData<SettingsData>
                                 LanguageIndex,
                                 FullScreen,
                                 Vsync,
-                                SameRule,
-                                SameWallRule,
-                                SuddenDeathRule,
-                                RandomRule,
-                                PlusRule,
                                 ElementalRule);
     }
 
@@ -113,11 +93,6 @@ public class SettingsData : IData<SettingsData>
         SettingsController.Instance.LanguageSetting.CurrentIndex = LanguageIndex;
         SettingsController.Instance.FullScreen.isOn = FullScreen;
         SettingsController.Instance.Vsync.isOn = Vsync;
-        SettingsController.Instance.SameRule.isOn = SameRule;
-        SettingsController.Instance.SameWallRule.isOn = SameWallRule;
-        SettingsController.Instance.SuddenDeathRule.isOn = SuddenDeathRule;
-        SettingsController.Instance.RandomRule.isOn = RandomRule;
-        SettingsController.Instance.PlusRule.isOn = PlusRule;
         SettingsController.Instance.ElementalRule.isOn = ElementalRule;
 
     }

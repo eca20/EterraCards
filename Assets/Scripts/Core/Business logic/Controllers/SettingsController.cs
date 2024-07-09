@@ -15,11 +15,6 @@ public class SettingsController : MonoBehaviour
     [field: SerializeField] public VolumeSettingUI SFXSetting { get; set; }
     [field: SerializeField] public Toggle FullScreen { get; set; }
     [field: SerializeField] public Toggle Vsync { get; set; }
-    [field: SerializeField] public Toggle SameRule { get; set; }
-    [field: SerializeField] public Toggle SameWallRule { get; set; }
-    [field: SerializeField] public Toggle SuddenDeathRule { get; set; }
-    [field: SerializeField] public Toggle RandomRule { get; set; }
-    [field: SerializeField] public Toggle PlusRule { get; set; }
     [field: SerializeField] public Toggle ElementalRule { get; set; }
 
     /// <summary>
@@ -61,11 +56,6 @@ public class SettingsController : MonoBehaviour
                                         LanguageSetting.CurrentIndex,
                                         FullScreen.isOn,
                                         Vsync.isOn,
-                                        SameRule.isOn,
-                                        SameWallRule.isOn,
-                                        SuddenDeathRule.isOn,
-                                        RandomRule.isOn,
-                                        PlusRule.isOn,
                                         ElementalRule.isOn);
         DataSerialization.Save("Settings", DataController.Instance.SettingData);
     }
@@ -103,11 +93,6 @@ public class SettingsController : MonoBehaviour
         this.SFXSetting.Slider.value = DataController.Instance.SettingData.SFXVolume;
         this.FullScreen.isOn = DataController.Instance.SettingData.FullScreen;
         this.Vsync.isOn = DataController.Instance.SettingData.Vsync;
-        this.SameRule.isOn = DataController.Instance.SettingData.SameRule;
-        this.SameWallRule.isOn = DataController.Instance.SettingData.SameWallRule;
-        this.SuddenDeathRule.isOn = DataController.Instance.SettingData.SuddenDeathRule;
-        this.RandomRule.isOn = DataController.Instance.SettingData.RandomRule;
-        this.PlusRule.isOn = DataController.Instance.SettingData.PlusRule;
         this.ElementalRule.isOn = DataController.Instance.SettingData.ElementalRule;
     }
 
