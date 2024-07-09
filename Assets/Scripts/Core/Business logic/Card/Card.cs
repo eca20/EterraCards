@@ -115,6 +115,19 @@ public class Card : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHand
                 {
                     capturedCards.Add(enemy);
                 }
+
+                //Same rule capture
+                if (DataController.Instance.SettingData.SameRule)
+                {
+                    sameRuleCards.Add(new KeyValuePair<Card, bool>(enemy, CardData.Power[i] == enemy.CardData.Power[powerIndex]));
+                }
+
+
+                //Plus rule capture
+                if (enemy.gameObject.layer != LayerMask.NameToLayer("Wall") && DataController.Instance.SettingData.PlusRule)
+                {
+                    plusRuleCards.Add(new KeyValuePair<Card, int>(enemy, CardData.Power[i] + enemy.CardData.Power[powerIndex]));
+                }
             }
         }
 

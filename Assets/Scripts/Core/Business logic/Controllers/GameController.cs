@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour
         Instance = this;
     }
 
-    /// <summary>
+        /// <summary>
     /// Start is called on the frame when a script is enabled just before any of the Update methods are called the first time. Only called once.
     /// </summary>
     private void Start()

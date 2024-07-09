@@ -528,7 +528,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot9
+      value: CardSlot (9)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -702,7 +702,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot2
+      value: CardSlot (1)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -787,7 +787,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot3
+      value: CardSlot (2)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -1347,7 +1347,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot14
+      value: CardSlot (14)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -1738,7 +1738,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot4
+      value: CardSlot (4)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -3043,7 +3043,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot5
+      value: CardSlot (5)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -3128,7 +3128,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot15
+      value: CardSlot (15)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -3287,7 +3287,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot11
+      value: CardSlot (11)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -3407,7 +3407,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot7
+      value: CardSlot (7)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -3503,7 +3503,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot10
+      value: CardSlot (10)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -3796,7 +3796,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot6
+      value: CardSlot (6)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -4112,7 +4112,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot13
+      value: CardSlot (13)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -4545,7 +4545,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot12
+      value: CardSlot (12)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -4864,7 +4864,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot8
+      value: CardSlot (8)
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder
@@ -5891,7 +5891,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9204735336990695466, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_Name
-      value: CardSlot1
+      value: CardSlot
       objectReference: {fileID: 0}
     - target: {fileID: 9204735336990695467, guid: 85ae17a0b61e78d4fbdebc7b5d5927fb, type: 3}
       propertyPath: m_RootOrder

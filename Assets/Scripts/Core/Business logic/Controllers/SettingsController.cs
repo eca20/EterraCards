@@ -40,7 +40,7 @@ public class SettingsController : MonoBehaviour
         yield return new WaitUntil(() => LanguageSetting.Values.Count > 0);
         BindData();
         Refresh();
-        SetSettings();
+   //     SetSettings();
     }
 
     /// <summary>
@@ -55,8 +55,7 @@ public class SettingsController : MonoBehaviour
                                         QualitySetting.CurrentIndex,
                                         LanguageSetting.CurrentIndex,
                                         FullScreen.isOn,
-                                        Vsync.isOn,
-                                        ElementalRule.isOn);
+                                        Vsync.isOn);
         DataSerialization.Save("Settings", DataController.Instance.SettingData);
     }
 
@@ -66,7 +65,7 @@ public class SettingsController : MonoBehaviour
     private void SetSettings()
     {
         SetQuality(QualitySetting.CurrentIndex);
-        SetResolution(ResolutionSetting.Values[ResolutionSetting.CurrentIndex]);
+    //    SetResolution(ResolutionSetting.Values[ResolutionSetting.CurrentIndex]);
         SetLanguage(LanguageSetting.Values[LanguageSetting.CurrentIndex]);
         SetFullScreen(FullScreen.isOn);
         SetVsync(Vsync.isOn);
@@ -93,7 +92,6 @@ public class SettingsController : MonoBehaviour
         this.SFXSetting.Slider.value = DataController.Instance.SettingData.SFXVolume;
         this.FullScreen.isOn = DataController.Instance.SettingData.FullScreen;
         this.Vsync.isOn = DataController.Instance.SettingData.Vsync;
-        this.ElementalRule.isOn = DataController.Instance.SettingData.ElementalRule;
     }
 
     /// <summary>

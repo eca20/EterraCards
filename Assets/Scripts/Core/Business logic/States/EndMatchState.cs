@@ -82,6 +82,14 @@ public class EndMatchState : BaseState
 
         if (timeToShow > 4f)
         {
+            if (draw)
+            {
+                turnController.ChangeState(new StartMatchState());
+            }
+            else
+            {
+                turnController.UpdateTurnVisibility(1f, true);
+            }
             turnController.UpdateTurnVisibility(1f, true);   
         }
     }

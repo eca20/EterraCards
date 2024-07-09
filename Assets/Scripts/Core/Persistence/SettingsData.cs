@@ -8,7 +8,6 @@ public class SettingsData : IData<SettingsData>
     public int LanguageIndex { get; set; }
     public bool FullScreen { get; set; }
     public bool Vsync { get; set; }
-    public bool ElementalRule { get; set; }
 
     /// <summary>
     /// Default constructor of the class.
@@ -22,7 +21,6 @@ public class SettingsData : IData<SettingsData>
         LanguageIndex = 0;
         FullScreen = true;
         Vsync = true;
-        ElementalRule = true;
     }
 
     /// <summary>
@@ -34,8 +32,7 @@ public class SettingsData : IData<SettingsData>
                         int QualityIndex,
                         int LanguageIndex,
                         bool FullScreen,
-                        bool Vsync,
-                        bool ElementalRule)
+                        bool Vsync)
     {
         this.MusicVolume = MusicVolume;
         this.SFXVolume = SFXVolume;
@@ -44,7 +41,6 @@ public class SettingsData : IData<SettingsData>
         this.LanguageIndex = LanguageIndex;
         this.FullScreen = FullScreen;
         this.Vsync = Vsync;
-        this.ElementalRule = ElementalRule;
     }
 
     /// <summary>
@@ -60,15 +56,13 @@ public class SettingsData : IData<SettingsData>
         LanguageIndex = SettingsController.Instance.LanguageSetting.CurrentIndex;
         FullScreen = SettingsController.Instance.FullScreen.isOn;
         Vsync = SettingsController.Instance.Vsync.isOn;
-        ElementalRule = SettingsController.Instance.ElementalRule.isOn;
         return new SettingsData(MusicVolume,
                                 SFXVolume,
                                 ResolutionIndex,
                                 QualityIndex,
                                 LanguageIndex,
                                 FullScreen,
-                                Vsync,
-                                ElementalRule);
+                                Vsync);
     }
 
     /// <summary>
@@ -83,7 +77,6 @@ public class SettingsData : IData<SettingsData>
         SettingsController.Instance.LanguageSetting.CurrentIndex = LanguageIndex;
         SettingsController.Instance.FullScreen.isOn = FullScreen;
         SettingsController.Instance.Vsync.isOn = Vsync;
-        SettingsController.Instance.ElementalRule.isOn = ElementalRule;
 
     }
 }
